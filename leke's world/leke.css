@@ -1,0 +1,143 @@
+body, ul, li, h1, h2, h3, a {
+margin: 0;
+padding: 0;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: rgb(145, 197, 231);
+    padding: 14px;
+    text-align: center;
+    position:fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left:0;
+}
+header h1 {
+    color: white;
+    border: 8px solid white;
+    padding:6px 12px;
+    display: inline-block;
+    border-radius: 19px;
+}
+
+.banner {
+    position:relative;
+    
+}
+.banner img {
+    max-width: 100%;
+}
+.banner .welcome {
+    background-color: rgb(240,240,240);
+    color: rgb(6, 6, 99);
+    padding: 27px;
+    position:absolute;
+    left: 0%;
+    top: 20%;
+    border-radius: 10%;
+}
+.banner h2{
+    font-size: 32px;
+}
+.banner h2 span {
+    font-size: 1.3em;
+}
+.banner form {
+    border-color: red;
+}
+nav {
+    background-color: #d4e8f5;
+    padding: 20px;
+    left: 0;
+    position:sticky;
+    top: 93px;
+}
+nav ul {
+    white-space: nowrap;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+nav li {
+    width: 25%;
+    display:inline-block;
+    font-size: 24px;
+}
+nav li a{
+    text-decoration: none;
+    color: rgb(6,6,99);
+}
+nav li a:hover {
+    text-decoration: underline;
+}
+main {
+    max-width: 100%;
+    width: 1000px;
+    margin: 80px auto;
+    padding: 0 40;
+    box-sizing: border-box;
+}
+article h2 {
+    color: green;
+    font-size: 48px;
+}
+article p {
+    line-height: 2em;
+    color: #4b4b4b;
+}
+.images {
+    text-align: center;
+    margin: 80px 0;
+    white-space: nowrap;
+}
+.images li {
+    display: inline-block;
+    width: 40%;
+    margin: 20px 5px;
+}
+.images li:hover {
+    position:relative;
+    top: -4px;
+}
+.images li img {
+    max-width: 100%;
+}
+.feedback {
+    background: #f4f4f4;
+    text-align: center;
+    padding: 5px 20px;
+    color: #4b4b4b;
+}
+.feedback h2 {
+    font-size: 36px;
+}
+#feedback {
+    margin: 10px 0;
+    padding: 5px 1020x;
+    font-size: 24px;
+    border-radius: 28px;
+    border: 4px solid white;
+}
+#feedback:focus{
+    border: 4px dashed #4b4b4b;
+}
+#feedback:valid{
+    border: 4px solid yellow;
+}
+footer {
+    background: #f63232;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+p::selection {
+background-color: pink;
+color: blue;
+}
+/* responsive styles */
+
+@media screen and (max-width: 1400px) {
+    
+}
